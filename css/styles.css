@@ -1,0 +1,414 @@
+#title {
+  background-color: #DFB722;
+  width:100%
+}
+
+a {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+    font-family: "Montserrat-Black";
+}
+
+h1{
+  font-size: 3.5rem;
+  line-height: 2;
+  font-family: "Montserrat-Black";
+  color:white;
+  font-weight: bold;
+}
+
+h2{
+  font-family: "Montserrat-Black";
+  line-height: 1.5;
+    font-size: 3.5rem;
+
+}
+
+.container-fluid{
+  padding:3% 15% 7%;
+
+
+}
+
+.navbar{
+  padding:0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size:2rem;
+}
+
+.nav-item{
+  padding:0 18px;
+}
+.nav-link{
+  font-size:1.2rem;
+  font-family:"Montserrat-light";}
+
+.Download-Button{
+  margin:5% 3% 5% 0;
+  }
+
+.title-image{
+  width:60%;
+  border-radius:100%;
+
+  right: 5%;
+  position:absolute;
+}
+
+#features{
+  padding:7% 15%;
+  background-color:white;
+  position:relative;
+  z-index:1;
+  /* we are not using absolute position bcoz it disturns the natural flow of order of html */
+  /* look the html flowchart for better understanding and also learn it by heart */
+
+}
+
+.feature-box{
+  text-align:center;
+  padding:2% 7%
+}
+
+h3{
+  font-family:"Montserrat-bold";
+  font-weight:bold;
+  font-size:40px;
+
+}
+
+p{
+  color:#8f8f8f;
+}
+
+.icon{
+  color:#DFB722;
+  margin-bottom:1rem;
+}
+.icon:hover{
+  color:#DFB722;
+}
+
+
+/* Testimonial section */
+
+ #testimonials{
+
+  /* padding:2% 7%;............not used here as padding is done in carousel items so that the buttons are far away */
+  text-align:center;
+  background-color:#DFB722;
+  color:#fff;
+  height:500px;
+  }
+
+  .testimonial-image{
+    width:20%;
+    border-radius:10%;
+    margin:5%;
+  }
+
+   .middle{
+
+    height:50px;
+    margin-top:15px;
+
+}
+
+  #press{
+      background-color:#ef8172;
+      text-align:center;
+      padding-bottom:3%;
+  }
+
+ /* .press-logo{
+   width:15%;
+   margin:20px 20px 50px;
+ } */
+
+ .carousel-item{
+     padding:2% 7%;}
+
+ .pricing-column{
+   padding:3% 2%;
+ }
+
+ #pricing{
+   padding:100px;
+   text-align:center;
+ }
+/* media is similar to if statement */
+ @media(max-width:1028px) {
+   #title{
+     text-align:center;
+   }
+   .title-image{
+     position:static;
+
+   }}
+
+   .lower{
+     height:100px;
+     margin-bottom:50px;
+     background-color: #DFB722;
+     text-align:center;
+     color:white;
+     right:2px;
+     left:2px;
+     /* padding:90px;
+     width:100%; */
+
+
+
+ }
+ .A{
+   margin:20px;
+ }
+
+ #footer{
+   text-align:center;
+ }
+ .I{
+   padding:10px;
+ }
+
+ .Welcome{
+   font-family:"Montserrat-Black";
+   font-size:3.5rem;
+   line-height:1.5;
+
+ }
+
+ .middle_Banner{
+   background-color:#DFB722;
+   height:510px;
+ }
+
+ /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+ .flip-card {
+   background-color: transparent;
+   width: 200px;
+   height: 200px;
+   border: 0px solid #f1f1f1;
+   margin:0px;
+   padding:0px;
+   perspective: 1000px; /* Remove this if you don't want the 3D effect */
+ }
+
+ /* This container is needed to position the front and back side */
+ .flip-card-inner {
+   position: absolute;
+   width: 90%;
+   height: 100%;
+   text-align: center;
+   transition: transform 0.8s;
+   transform-style: preserve-3d;
+ }
+
+ /* Do an horizontal flip when you move the mouse over the flip box container */
+ .flip-card:hover .flip-card-inner {
+   transform: rotateY(180deg);
+ }
+
+ /* Position the front and back side */
+ .flip-card-front, .flip-card-back {
+   position: absolute;
+   width: 90%;
+   height: 100%;
+   -webkit-backface-visibility: hidden; /* Safari */
+   backface-visibility: hidden;
+ }
+
+ /* Style the front side (fallback if image is missing) */
+ .flip-card-front {
+   background-color: ;
+   color: black;
+   margin:0px;
+
+ }
+
+
+
+
+/* ****************************************Footer********************************************* */
+.lower_text{
+  position:absolute;
+  margin-top:20%;
+  text-align:center;
+  right:35%;
+  left:35%;
+}
+
+.footer_img{
+    height: 800px;
+    text-align: left;
+    margin-bottom: 0%;
+
+    margin-top:20%;
+     background-image: url("https://cdn.innota.co/tapettitehdas/files/tapetti/68631.jpg");}
+
+
+.lower_banner{
+       position:absolute;
+       margin-top:5 px;
+     }
+
+/* .footer_icon{
+  text-align:center;
+  position:absolute;
+  left:610px;
+} */
+
+.icon{
+  padding:40px;
+
+}
+
+/* ********************************************cards************************************************ */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700');
+
+* {
+  -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+a {
+  text-decoration: none;
+  color: orange;
+}
+
+h2 {
+  color: #000;
+  margin: 2rem 0 .5rem;
+  font-size: 1.25rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+img {
+  display: block;
+    border: 0;
+    width: 100%;
+    height: auto;
+}
+
+
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* see notes below */
+  grid-auto-rows: minmax(200px, auto);
+  grid-gap: 1rem;
+}
+
+.card {
+  /*height: 200px;*/
+  /*background: red;*/
+  border: 2px solid #e7e7e7;
+  border-radius: 4px;
+  padding: .5rem;
+  -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
+  display: flex;
+  /* -webkit-box-orient: vertical; */
+  /* -webkit-box-direction: normal; */
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  color: #5d5e5e;
+} /* li item */
+
+.thumbnail img {
+  fill: #c7c4c4;
+  height: 155px;
+  /* opacity: .25; */
+  /* padding: 1.5rem; */
+}
+
+.card-content {
+    font-size: .75rem;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.panel.card-panel .panel-header {
+    background-color: #ffffff;
+    font-size: .75rem;
+    font-weight: 400;
+    height: 25px !important;
+}
+
+.panel.card-panel .panel-content {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.category {
+  font-size: .75rem;
+  text-transform: uppercase;
+}
+
+footer {
+  border-top: 2px solid #e7e7e7;
+  margin: .5rem 0 0;
+  min-height: 30px;
+  font-size: .5rem;
+}
+
+.category {
+    position: absolute;
+    top: 110px;
+    left: 0;
+    color: #fff;
+    background: #e74c3c;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.category__01 {
+  background-color: #50c6db;
+}
+
+.category__02 {
+  background-color: #5d5e5e;
+}
+
+.category__03 {
+  background-color: #51bb7b;
+}
+
+.category__04 {
+  background-color: #f47820;
+}
+
+.category__05 {
+  background-color: #8350a0;
+}
+
+.post-meta {
+  margin-top: .5rem;
+}
+
+.comments {
+  margin-left: .5rem;
+}
