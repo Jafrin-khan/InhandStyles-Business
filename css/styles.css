@@ -1,4 +1,5 @@
 #title {
+  height : 20%;
   background-color: #DFB722;
   width:100%
 }
@@ -54,11 +55,13 @@ h2{
   }
 
 .title-image{
-  width:60%;
-  border-radius:100%;
-
-  right: 5%;
   position:absolute;
+  width:60%;
+  border-radius:50%;
+  margin-top:"20%";
+  margin-bottom:10%;
+  margin-left: 21%;
+  
 }
 
 #features{
@@ -84,7 +87,7 @@ h3{
 }
 
 p{
-  color:#8f8f8f;
+  color:#0a0101;
 }
 
 .icon{
@@ -92,7 +95,7 @@ p{
   margin-bottom:1rem;
 }
 .icon:hover{
-  color:#DFB722;
+  color:#df2222;
 }
 
 
@@ -126,10 +129,6 @@ p{
       padding-bottom:3%;
   }
 
- /* .press-logo{
-   width:15%;
-   margin:20px 20px 50px;
- } */
 
  .carousel-item{
      padding:2% 7%;}
@@ -170,9 +169,7 @@ p{
    margin:20px;
  }
 
- #footer{
-   text-align:center;
- }
+
  .I{
    padding:10px;
  }
@@ -189,85 +186,103 @@ p{
    height:510px;
  }
 
- /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
- .flip-card {
-   background-color: transparent;
-   width: 200px;
-   height: 200px;
-   border: 0px solid #f1f1f1;
-   margin:0px;
-   padding:0px;
-   perspective: 1000px; /* Remove this if you don't want the 3D effect */
- }
-
- /* This container is needed to position the front and back side */
- .flip-card-inner {
-   position: absolute;
-   width: 90%;
-   height: 100%;
-   text-align: center;
-   transition: transform 0.8s;
-   transform-style: preserve-3d;
- }
-
- /* Do an horizontal flip when you move the mouse over the flip box container */
- .flip-card:hover .flip-card-inner {
-   transform: rotateY(180deg);
- }
-
- /* Position the front and back side */
- .flip-card-front, .flip-card-back {
-   position: absolute;
-   width: 90%;
-   height: 100%;
-   -webkit-backface-visibility: hidden; /* Safari */
-   backface-visibility: hidden;
- }
-
- /* Style the front side (fallback if image is missing) */
- .flip-card-front {
-   background-color: ;
-   color: black;
-   margin:0px;
-
- }
+ 
 
 
 
 
-/* ****************************************Footer********************************************* */
-.lower_text{
-  position:absolute;
-  margin-top:20%;
-  text-align:center;
-  right:35%;
-  left:35%;
-}
+     .footer-dark{
+      height: 300px;
+      margin-bottom: 0%;
+  
+      margin-top:20%;
+      background-color:#FFE5B4 ;}
 
-.footer_img{
-    height: 800px;
-    text-align: left;
-    margin-bottom: 0%;
+ 
+    
+    .footer-dark h3 {
+      margin-top:0;
+      margin-bottom:12px;
+      font-weight:bold;
+      font-size:16px;
+    }
+    
+    .footer-dark ul {
+      padding:0;
+      list-style:none;
+      line-height:1.6;
+      font-size:14px;
+      margin-bottom:0;
+    }
+    
+    .footer-dark ul a {
+      color:inherit;
+      text-decoration:none;
+      
+    }
+    
+  
+    
+    @media (max-width:767px) {
+      .footer-dark .item:not(.social) {
+        text-align:center;
+        padding-bottom:20px;
+      }
+    }
+    
+    .footer-dark .item.text {
+      margin-bottom:36px;
+    }
+    
+    @media (max-width:767px) {
+      .footer-dark .item.text {
+        margin-bottom:0;
+      }
+    }
+    
+    .footer-dark .item.text p {
 
-    margin-top:20%;
-     background-image: url("https://cdn.innota.co/tapettitehdas/files/tapetti/68631.jpg");}
+      margin-bottom:0;
+    }
+    
+    .footer-dark .item.social {
+      text-align:center;
+    }
+    
+    @media (max-width:991px) {
+      .footer-dark .item.social {
+        text-align:center;
+        margin-top:30px;
+      }
+    }
+    
+    .footer-dark .item.social > a {
+      font-size:20px;
+      width:36px;
+      height:36px;
+      line-height:36px;
+      display:inline-block;
+      text-align:center;
+      border-radius:50%;
+      box-shadow:0 0 0 1px rgba(228, 224, 224, 0.4);
+      margin:0 8px;
+      color:rgb(7, 4, 4);
+     
+    }
+    
+    .footer-dark .item.social > a:hover {
+      opacity:0.5;
+    }
+    
+    .footer-dark .copyright {
+      text-align:center;
+      padding-top:24px;
+    
+      font-size:13px;
+      margin-bottom:0;
+    }
+    
 
-
-.lower_banner{
-       position:absolute;
-       margin-top:5 px;
-     }
-
-/* .footer_icon{
-  text-align:center;
-  position:absolute;
-  left:610px;
-} */
-
-.icon{
-  padding:40px;
-
-}
 
 /* ********************************************cards************************************************ */
 
@@ -326,7 +341,7 @@ img {
   -ms-flex-direction: column;
   flex-direction: column;
   position: relative;
-  color: #5d5e5e;
+  color: #060b0b;
 } /* li item */
 
 .thumbnail img {
@@ -366,11 +381,8 @@ img {
   text-transform: uppercase;
 }
 
-footer {
-  border-top: 2px solid #e7e7e7;
-  margin: .5rem 0 0;
-  min-height: 30px;
-  font-size: .5rem;
+#footer {
+ text-align:center;
 }
 
 .category {
